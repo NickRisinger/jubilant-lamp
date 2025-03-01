@@ -8,4 +8,9 @@ export default antfu({
     semi: true,
     singleQuote: true,
   },
+}, {
+  files: ['**/*.vue'],
+  rules: {
+    'antfu/top-level-function': 'off',
+  },
 });
