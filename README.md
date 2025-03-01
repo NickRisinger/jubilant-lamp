@@ -1,5 +1,47 @@
-# Vue 3 + TypeScript + Vite
+# 🛠 Управление учетными записями (Vue 3 + TypeScript + Pinia)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📌 Описание проекта
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+Этот проект представляет собой веб-приложение для управления учетными записями.
+Реализована возможность добавления, редактирования и удаления записей с валидацией полей.
+
+### 🔧 Технологический стек:
+
+- **Vue 3** + **Composition API**
+- **TypeScript**
+- **Pinia** (стейт-менеджер)
+- **Element Plus** (UI-компоненты)
+- **LocalStorage** (для сохранения данных)
+
+---
+
+## 🚀 Как запустить проект
+
+### 1️⃣ Установите зависимости
+
+Убедитесь, что у вас установлен **Node.js** (рекомендуемая версия: `^20.x.x`).
+
+```sh
+npm install
+```
+
+### 2️⃣ Запуск в режиме разработки
+
+```sh
+npm run dev
+```
+
+После запуска откройте в браузере:
+📌 http://localhost:5173
+
+### 3️⃣ Сборка проекта
+
+```sh
+npm run build
+```
+
+### 4️⃣ Запуск сборки
+
+```sh
+npm run preview
+```
